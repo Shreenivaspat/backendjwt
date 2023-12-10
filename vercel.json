@@ -1,14 +1,8 @@
 {
-    "version" : 2 ,
-    "builds" : [
-        {
-            "src " :"*.js ", "use":"@vercel/node"
-        }
-    ],
-    "routes":[
-        {
-            "src":"/(.*)",
-            "dest":"/"
-        }
-    ]
+  "builds": [
+    { "src": "src/**/*.js", "use": "@now/static-builder" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
