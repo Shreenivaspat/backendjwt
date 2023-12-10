@@ -28,7 +28,7 @@ mongoose
 
 app.use(
   cors({
-    origin: ["http://deploy-mern-1whq.vercel.app"],
+    origin: ["https://frontendjwt.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true,
   })
