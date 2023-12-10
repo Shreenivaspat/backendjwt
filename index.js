@@ -28,7 +28,7 @@ mongoose
 
 app.use(
   cors({
-    origin: ["https://backendjwt1.onrender.com"],
+    origin: ["https://backendjwt2.onrender.com"],
     methods: ["GET", "POST"],
     credentials: true,
   })
